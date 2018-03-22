@@ -1,0 +1,36 @@
+.torn-message {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    pointer-events: none;
+    text-align: center;
+}
+
+.torn-message-notice {
+    padding: 8px;
+}
+
+.torn-message-notice-content {
+    padding: 8px 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.2);
+    background: #fff;
+    display: inline-block;
+    pointer-events: all
+}
+
+.torn-message-success {
+    color: #00a854
+}
+
+.torn-message-error {
+    color: #f04134
+}
+
+.torn-message-warning {
+    color: #ffbf00
+}
+
+.torn-message-info, .torn-message-loading {
+    color: #108ee9
+}

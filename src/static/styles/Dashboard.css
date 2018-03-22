@@ -1,0 +1,42 @@
+.d3-item {
+    width: 660px;
+    height: 600px;
+    margin: 0 auto;
+}
+.d3-item .axis path {
+    fill: none;
+    stroke: #999;
+    stroke-dasharray: 2 3;
+}
+.d3-item .axis text {
+    font-size: 13px;
+    stroke: #222;
+}
+.d3-item text.title {
+    font-size: 24px;
+}
+.d3-item circle.tick {
+    fill: #f3f3f3;
+    stroke: #999;
+    stroke-dasharray: 2 3;
+}
+.d3-item path.spiral {
+    fill: none;
+    stroke: #ee8d18;
+    stroke-width: 3px;
+}
+
+.d3-item .tooltip {
+    background: #eee;
+    box-shadow: 0 0 5px #999999;
+    color: #333;
+    font-size: 12px;
+    left: 130px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    top: 95px;
+    z-index: 10;
+    display: block;
+    opacity: 0;
+}
